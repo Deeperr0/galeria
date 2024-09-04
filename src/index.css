@@ -7,6 +7,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+	overflow-x: hidden;
+}
 .card {
 	height: var(--card-height, auto);
 }

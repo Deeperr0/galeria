@@ -1,5 +1,9 @@
+import { useContext } from "react";
+import { ToggleSlideshowContext } from "../../App";
 export default function Navbar() {
-	
+	const { toggleSlideshow, setToggleSlideshow } = useContext(
+		ToggleSlideshowContext
+	);
 	return (
 		<nav className="border-b border-lightGray flex items-center justify-between px-6 py-6 lg:py-10 lg:mx-10 md:px-10 lg:px-0 md:py-7">
 			<div className="h-8 flex">
@@ -15,8 +19,11 @@ export default function Navbar() {
 					/>
 				</svg>
 			</div>
-			<a className="uppercase font-libre font-bold leading-[11px] text-[9px] tracking-[1.93px] md:text-xs md:tracking-[2.57px] hover:cursor-pointer">
-				Start Slideshow
+			<a
+				className="uppercase font-libre font-bold leading-[11px] text-[9px] tracking-[1.93px] md:text-xs md:tracking-[2.57px] hover:cursor-pointer text-darkGray hover:text-black"
+				onClick={() => setToggleSlideshow(!toggleSlideshow)}
+			>
+				{toggleSlideshow ? "Stop Slideshow" : "Start Slideshow"}
 			</a>
 		</nav>
 	);
