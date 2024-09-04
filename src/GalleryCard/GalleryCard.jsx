@@ -50,7 +50,7 @@ export default function GalleryCard({ name, artist, images, height }) {
 					src={images.thumbnail}
 					alt={name}
 					className="w-full h-full object-cover object-center group-hover:opacity-50"
-					height={height}
+					height={height.replace("px", "")}
 					loading="lazy"
 				/>
 			)}
