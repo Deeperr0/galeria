@@ -1,4 +1,5 @@
 export default function Navbar() {
+	
 	return (
 		<nav className="border-b border-lightGray flex items-center justify-between px-6 py-6 lg:py-10 lg:mx-10 md:px-10 lg:px-0 md:py-7">
 			<div className="h-8 flex">
