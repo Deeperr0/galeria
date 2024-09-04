@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import SlideshowCard from "../SlideshowCard";
+import GalleryCard from "../GalleryCard";
 
 export default function Home({ dataJson }) {
 	const sizes = [
@@ -66,7 +66,7 @@ export default function Home({ dataJson }) {
 			<div className="hidden lg:grid grid-cols-4 gap-10 px-10 py-10">
 				<div className="grid gap-10">
 					{firstColumnDesktop.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -77,7 +77,7 @@ export default function Home({ dataJson }) {
 				</div>
 				<div className="grid gap-10">
 					{secondColumnDesktop.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -88,7 +88,7 @@ export default function Home({ dataJson }) {
 				</div>
 				<div className="grid gap-10">
 					{thirdColumnDesktop.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -99,7 +99,7 @@ export default function Home({ dataJson }) {
 				</div>
 				<div className="grid gap-10">
 					{fourthColumnDesktop.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -112,7 +112,7 @@ export default function Home({ dataJson }) {
 			<div className="hidden lg:hidden md:grid grid-cols-2 lg:grid-cols-4 gap-10 px-10 py-10">
 				<div className="grid gap-10">
 					{firstColumn.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -123,7 +123,7 @@ export default function Home({ dataJson }) {
 				</div>
 				<div className="grid gap-10">
 					{secondColumn.map((item, index) => (
-						<SlideshowCard
+						<GalleryCard
 							key={index}
 							name={item.name}
 							artist={item.artist}
@@ -135,7 +135,7 @@ export default function Home({ dataJson }) {
 			</div>
 			<div className="w-full flex flex-col items-center gap-6 py-6 md:hidden">
 				{dataJson.map((item, index) => (
-					<SlideshowCard
+					<GalleryCard
 						key={index}
 						name={item.name}
 						artist={item.artist}
