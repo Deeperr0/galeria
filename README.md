@@ -1,11 +1,11 @@
-# Frontend Mentor - Galleria slideshow site solution
+# Galleria Slideshow Site
 
-This is a solution to the [Galleria slideshow site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a Galleria slideshow site that showcases paintings with a responsive layout, interactive hover states, and a lightbox feature for viewing artwork.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Features](#features)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -14,21 +14,16 @@ This is a solution to the [Galleria slideshow site challenge on Frontend Mentor]
 
 ## Overview
 
-### The challenge
+### Features
 
-Users should be able to:
+Users can:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Navigate the slideshow and view each painting in a lightbox
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -46,5 +41,4 @@ Users should be able to:
 ## Author
 
 - Website - [Deeperr0](https://www.github.com/Deeperr0)
-- Frontend Mentor - [@Deeperr0](https://www.frontendmentor.io/profile/Deeperr0)
 - Twitter - [@deeperr00](https://www.twitter.com/deeperr00)
